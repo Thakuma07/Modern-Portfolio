@@ -1,0 +1,522 @@
+@font-face {
+    font-family: nimbus;
+    src: url(nimbus-sans-l_regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: nimbus;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    /* background-color: brown; */
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+
+}
+#nav a{
+    
+    font-weight: 800;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+#nav #centeratag{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+    /* background-color: red; */
+}
+
+#rony1{
+    width: 10vw;
+    /* background-color: green; */
+
+}
+
+#rony1 p{
+    text-transform: capitalize;
+    font-weight: 800;
+    opacity: .5;
+    
+    font-size: 12px;
+    margin: 10px 0;
+}
+#rony1 #rony1imgwrapper{
+    width: 100%;
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+    /* background-color: aquamarine; */
+}
+
+#rony1imgwrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#rony2{
+    position: relative;
+    width: 30vw;
+    min-height: 42vw;
+    /* background-color: blueviolet; */
+}
+
+#imagetext{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: yellow; */
+}
+
+#rony2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#rony2 p{
+    margin-top: 30px;
+    font-size: 1.3vw;
+    letter-spacing: -.07vw;
+    line-height: 1.3vw;
+    width: 40%;
+    
+}
+
+#rony2 #heading{
+    top: -15%;
+    left: -10%;
+    position: absolute;
+}
+#rony2 h1{
+    font-size: 6vw;
+    font-weight: 400;
+    letter-spacing: -.4vw;
+    line-height: 1;
+}
+#rony3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#circlev{
+    border: 1px solid #5e5e5e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 5vw;
+    /* background-color: blue; */
+}
+
+#circlev i{
+    color:  #5e5e5e;
+}
+
+#rony3 h3{
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+#motive{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+
+#motive p{
+    line-height: 1.7;
+    letter-spacing: -.15vw;
+    position: relative;
+    right: 0;
+    width: 85%;
+    text-align: right;
+    font-size: 2vw;    
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    /* background-color: blue; */
+}
+
+#firstpic{
+    width: 17vw;
+}
+
+#firstpic #picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    /* background-color: aqua; */
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstpic h1, #secondpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#firstpic p, #secondpic p{
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing: -.07vw;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+#secondpic{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
+}
+
+#secondpic #picimg{
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+    /* background-color: aqua; */
+}
+
+#secondpic p{
+    width: 50%;
+    text-align: right;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+    height: 60vh;
+    /* background-color: blue; */
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;   
+}
+
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+
+#btext h1{
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: 1;
+}
+
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 101%;
+       
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+}
+
+
+#ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .6vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    border-radius: 100px;
+    font-weight: 700;
+    background-color: #fff;
+    border: 1px solid #c6c6c6;
+    color: #6f6f6f;
+}
+
+/* Mobile Responsive Styles (up to 767px) */
+@media (max-width: 767px) {
+    /* Navigation */
+    #nav {
+        padding: 6vw 5vw;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 12px;
+    }
+    
+    #nav #centeratag {
+        position: static;
+        transform: none;
+        order: -1;
+        font-size: 5vw;
+    }
+    
+    #nleft {
+        flex-wrap:nowrap ;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .nlink {
+        font-size: 3.5vw;
+        
+        
+    }
+
+    /* Hero Section */
+    #hero {
+        flex-direction: column;
+        margin-top: 8vw;
+        padding: 0 5vw;
+        gap: 30px;
+    }
+    
+    #rony1 {
+        width: 60%;
+        margin: 0 auto;
+        display: none;
+    }
+    
+    #rony1 #rony1imgwrapper {
+        height: 50vw;
+        display: none;
+    }
+    
+    #rony1 h2 {
+        font-size: 5vw;
+        display: none;
+    }
+    
+    #rony1 p {
+        font-size: 3vw;
+        display: none;
+    }
+
+    #rony2 {
+        width: 50%;
+        min-height: auto;
+    }
+    
+    #rony2 #heading {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    
+    #rony2 h1 {
+        font-size: 8vw;
+        letter-spacing: -0.5vw;
+    }
+    
+    #rony2 p {
+        font-size: 3vw;
+        width: 90%;
+        margin: 4vw auto;
+        line-height: 1.5;
+    }
+
+    #rony3 {
+        justify-content: center;
+        margin-top: 8vw;
+    }
+    
+    #circlev {
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    #circlev i {
+        font-size: 6vw;
+    }
+    
+    #rony3 h3 {
+        font-size: 4vw;
+    }
+
+    /* About Section */
+    #motive {
+        flex-direction: column;
+        padding: 8vw 5vw;
+    }
+    
+    #motive h3 {
+        font-size: 6vw;
+    }
+    
+    #motive p {
+        width: 100%;
+        font-size: 4vw;
+        text-align: left;
+        line-height: 1.6;
+    }
+
+    /* Projects Section */
+    #pictures {
+        flex-direction: column;
+        gap: 15vw;
+        padding: 8vw 5vw;
+    }
+    
+    #firstpic, #secondpic {
+        width: 100% !important;
+    }
+    
+    #firstpic #picimg, #secondpic #picimg {
+        height: 60vw;
+    }
+    
+    #firstpic h1, #secondpic h1 {
+        font-size: 6vw;
+    }
+    
+    #firstpic p, #secondpic p {
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+
+    /* Banner Section */
+    #banner {
+        flex-direction: column;
+        margin-top: 15vw;
+    }
+    
+    #bimg {
+        width: 100%;
+        height: 50vw;
+    }
+    
+    #btext {
+        width: 100%;
+        padding: 8vw 5vw;
+    }
+    
+    #btext h1 {
+        font-size: 8vw;
+    }
+    
+    #btext p {
+        font-size: 4vw;
+        width: 100%;
+        margin-top: 4vw;
+    }
+
+    /* Future Section */
+    #future {
+        height: 70vh;
+    }
+    
+    #ftext {
+        padding: 2vw 2vw;
+    }
+    
+    #ftext h1 {
+        font-size: 5vw;
+    }
+    
+    #ftext button {
+        font-size: 1.7vw;
+        padding: 3vw 6vw;
+        margin-top: 2vw;
+    }
+}
+
+/* Smaller Mobile Screens (up to 480px) */
+@media (max-width: 480px) {
+    #rony1 {
+        width: 80%;
+    }
+    
+    #rony1 #rony1imgwrapper {
+        height: 60vw;
+    }
+    
+    .nlink {
+        font-size: 4vw;
+    }
+    
+    #motive p {
+        font-size: 4.5vw;
+    }
+    
+    #future video {
+        width: 150%;
+    }
+}
